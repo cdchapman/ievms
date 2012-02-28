@@ -154,7 +154,7 @@ build_ievm() {
 
         case $kernel in
             Darwin) ga_iso="/Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso" ;;
-            Linux) ga_iso="/usr/share/virtualbox/VBoxGuestAdditions.iso" ;;
+            Linux) ga_iso="/usr/lib/virtualbox/additions/VBoxGuestAdditions.iso" ;;
         esac
 
         log "Creating ${vm} VM"
